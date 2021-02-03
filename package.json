@@ -11,9 +11,11 @@
     "plain-install": "npm i --cache=.cache/npm --no-optional",
     "build": "gulp"
   },
+  "dependencies": {
+    "docsearch.js": "~2.6"
+  },
   "devDependencies": {
     "@djencks/antora-ui-builder": "https://experimental-repo.s3-us-west-1.amazonaws.com/djencks-antora-ui-builder-v0.0.6.tgz",
-    "@antora/antora-ui-default": "git+https://gitlab.com/antora/antora-ui-default.git",
-    "docsearch.js": "~2.6"
+    "@antora/antora-ui-default": "git+https://gitlab.com/antora/antora-ui-default.git"
   }
 }
