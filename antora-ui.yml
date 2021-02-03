@@ -1,4 +1,7 @@
 sources:
   - path: '@antora/antora-ui-default'
   - path: ./
+css:
+  - site.css
+  - vendor/docsearch.css
 bundle-name: algolia-ui
